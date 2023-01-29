@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    font-style: normal;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+    padding-right: 220px;
+
+}
+
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text h2{
+    color: #212529;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.14px;
+    letter-spacing: -0.02m;
+    background: url(./assets/image/yellow\ line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.line{
+    position: absolute;
+    left: 75%;
+    right: 75%;
+    top: 40%;
+    bottom: 36.92%;
+    z-index: -1;
+    transform: matrix(1,0,0.01,1,0,0);
+}
+
+.text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02;
+}
+
+.btn{
+    padding: 20px 40px;
+    gap: 20px;
+    background: #4F9cF9;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    width: 186px;
+    height: 63px;
+}
+
+.customise{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 697px;
+    height: 381px;
+    margin-top: 329px;
+    flex-wrap: wrap;
+
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 60px;
+    
+}
+
+.text2 h2{
+    color: #212529;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87.14px;
+    letter-spacing: -0.02m;
+    background: url(./assets/image/yellow\ line.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.text2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+
+.blue_div{
+    background: #C4DEFD;
+    height: 479px;
+    width: 686px;
+}
+
+.btn2{
+    padding: 20px 40px;
+    gap: 20px;
+    background: #4F9cF9;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    width: 186px;
+    height: 63px;
+}
